@@ -6,8 +6,6 @@
 
 ** To do
 
--> Fazer o slide do "Git pra Windows". Mencionar que o Source Tree se integra com o Stash
-
 -> Fazer os diagramas para o slide "Como funciona geralmente?"
   -> Colocar mais slides "pra baixo" pra deixar a explicação e fazer como se fosse um glossário?
 
