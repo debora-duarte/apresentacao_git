@@ -1,23 +1,25 @@
-Apresentação
+* Apresentação
 
--> Explico a diferença entre o Git e o Github/Stash? Falo sobre essas ferramentas também?
+** To do
 
--> Faço a apresentação seguindo o processo do nosso dia a dia de uso no Github?
+-> Ver se dá pra fazer o merge acontecer durante a apresentação mudando alguma coisa pelo site do Github
 
--> Faço a apresentação usando Windows? A maior parte da audiência vai ser de pessoas que usam o Windows e que podem se assustar com o nosso esquema de terminal e o Linux. Pode parecer que é uma ferramenta de trabalho legal, mas que não é pra elas. 
+-> Fazer o slide do "Git pra Windows". Mencionar que o Source Tree se integra com o Stash
 
--> Usar o msysgit do Windows talvez?
+-> Fazer os diagramas para o slide "Como funciona geralmente?"
+  -> Colocar mais slides "pra baixo" pra deixar a explicação e fazer como se fosse um glossário?
 
--> Ou só fazer um overview de uma ferramenta Windows ao final da apresentação?
+-> Baixar o " http://www.sourcetreeapp.com/" no Windows e ver como funciona pra conectar na minha conta do Github.
 
--> Ou usar o cliente Github do Linux pra mostrar e dizer que o do Windows é igual?
-
--> apresentacao_git
-
--> Fazer acontecer um merge?!
+-> Dar um último tapa na apresentação
 
 
-Comandos a seguir
+** Comandos Reveal.js
+
+--> F/Esc: tela inteira/sair
+
+
+** Comandos a seguir
 
 -- git init
 -- git status
@@ -49,12 +51,3 @@ Comandos a seguir
 -- git merge <nova_feature>
 -- git branch -d <nova_feature>
 -- git push
-
-
-* Boas práticas:
-
--- Fazer commits de alterações que representem uma tarefa
--- Branchs
--- Pull requests antes do merge - Abrir o stash pra mostrar um pull request
-
-
