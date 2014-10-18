@@ -1,0 +1,60 @@
+Apresentação
+
+-> Explico a diferença entre o Git e o Github/Stash? Falo sobre essas ferramentas também?
+
+-> Faço a apresentação seguindo o processo do nosso dia a dia de uso no Github?
+
+-> Faço a apresentação usando Windows? A maior parte da audiência vai ser de pessoas que usam o Windows e que podem se assustar com o nosso esquema de terminal e o Linux. Pode parecer que é uma ferramenta de trabalho legal, mas que não é pra elas. 
+
+-> Usar o msysgit do Windows talvez?
+
+-> Ou só fazer um overview de uma ferramenta Windows ao final da apresentação?
+
+-> Ou usar o cliente Github do Linux pra mostrar e dizer que o do Windows é igual?
+
+-> apresentacao_git
+
+-> Fazer acontecer um merge?!
+
+
+Comandos a seguir
+
+-- git init
+-- git status
+- Criar <arquivo> * Qualquer piadinha
+-- git status * Falar sobre o status do repositório
+-- git add <arquivo>
+-- git status * Falar sobre os arquivos a serem comitados
+-- git commit -m "Mensagem"
+-- git log
+-- git remote add origin <url_repositorio> * Comentar sobre Github x Stash
+-- git push -u origin master
+- Incluir um arquivo no Github pelo site
+-- git pull origin master
+-- git status
+- Alterar o arquivo
+-- git add <arquvio>
+-- git reset <arquivo>
+-- git checkout -- <arquivo>
+-- git branch <nova_feature>
+-- git branch
+-- git checkout <nova_feature>
+- Crio um arquivo nova_feature
+-- git add <nova_feature>
+-- git commit -m "Comitando nova feature"
+- Alterar arquivo
+-- git add <nova_feature>
+-- git commit -m "Mais uma parte da implementação"
+-- git checkout master - Falar do pull request?
+-- git merge <nova_feature>
+-- git branch -d <nova_feature>
+-- git push
+
+
+* Boas práticas:
+
+-- Fazer commits de alterações que representem uma tarefa
+-- Branchs
+-- Pull requests antes do merge - Abrir o stash pra mostrar um pull request
+
+

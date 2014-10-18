@@ -1,0 +1,90 @@
+
+-> O que é o Git: Git allows groups of people to work on the same documents (often code) at the same time, and without stepping on each other's toes. It's a distributed version control system.
+
+-> Repository: A directory where Git has been initialized to start version controlling your files.
+
+--> git init: Inicializar o repositório em um diretório. 
+
+-> /.git/. The repository is a hidden directory where Git operates.
+
+--> git status: Para ver o status do diretório.
+
+-> staged: Files are ready to be committed.
+
+-> unstaged: Files with changes that have not been prepared to be commited.
+
+-> untracked: Files aren't tracked by Git yet. This usually indicates a newly created file.
+
+--> git add: adicionar arquivos à staging area.
+
+--> git add . -A: pra adicionar tudo no diretório corrente e se certificar de que inclusive deleções são adicionadas à staging area.
+
+-> Para que o git leve em conta qualquer wildcard em qualquer comando, devemos colocar a expressão entre aspas. Caso contrário, o shell vai processar as wildcards antes e o git vai receber somente o resultado desse processamento, ao invés dele mesmo receber a expressão e poder processá-la. "We need quotes so that Git will receive the wildcard before our shell can interfere with it. Without quotes our shell will only execute the wildcard search within the current directory. Git will receive the list of files the shell found instead of the wildcard and it will not be able to add the files inside of the octofamily directory."
+
+--> git log (--summary): mostra as informações dos últimos logs
+
+--> git remote add origin <url>: para conectar com o repositório remoto (que é bom estar em outro lugar além da sua máquina). O origin é geralmente o nome dado para o repositório principal
+
+-> "When you start to get the hang of git you can do some really cool things with hooks when you push."
+
+--> git push -u origin master: enviar as alterações dos últimos commits para o repositório remoto. Origin é o geralmente o nome do repositório principal. Master geralmente é o nome do branch default. E a opção -u é para definir esses dois parâmetros - origin master - como default do comando push
+
+--> git pull origin master: para pegar as alterações do repositório
+
+-> Qual a diferença entre "git stash pop" e "git stash apply"
+
+--> git reset <arquivo> tirar o arquivo da staging area 
+
+--> git checkout -- <arquivo>: para se livrar das alterações feitas em um arquivo desde o último commit. O parâmetro -- serve para se cerfiticar que caso exista um branch com o mesmo nome do commit, as alterações no arquivo é que vão ser desfeitas, não o branch vai mudar de nome
+
+-> "When developers are working on a feature or bug they'll often create a copy (aka. branch) of their code they can make separate commits to. Then when they're done they can merge this branch back into their main master branch."
+
+-> "Branches are what naturally happens when you want to work on multiple features at the same time. You wouldn't want to end up with a master branch which has Feature A half done and Feature B half done. Rather you'd separate the code base into two "snapshots" (branches) and work on and commit to them separately. As soon as one was ready, you might merge this branch back into the master branch and push it to the remote server."
+
+--> git branch <nome_branch>: cria um branch com o nome passado
+
+--> git branch: lista os branchs
+
+--> git checkout <nome_branch>: muda para o branch com o nome passado
+
+--> git checkout -b branch: para criar o branch e mudar para ele ao mesmo tempo
+
+--> git rm <arquivo(s)>: não só remove os arquivos do disco, como coloca a deleção deles na staging area
+
+--> git rm -r <diretorio>: remove o diretório e tudo que existe dentro dele
+
+--> git commit -am "Delete stuff": para no commit incluir a deleção dos arquivos que não foram removidos com "git rm" ou que não foram para a staging area no "git add -A".
+
+--> git merge <nome_branch>: faz o merge do branch passado como parâmetro no branch em que estamos agora
+
+--> git branch -d <nome_branch>: deleta o branch citado. Mas não vai funcionar caso um merge desse branch não tenha sido feito. Em caso de querermos deletar um branch sem antes fazer o merge - suponha que foi desenvolvida uma feature que não é mais necessária, por exemplo - precisamos fazer "git branch -D <nome_branch>" ou "git branch -f -d <nome_branch>"
+
+-- git init
+-- git status
+- Cria arquivo octocat.txt
+-- git status
+-- git add octocat.txt
+-- git status
+-- git commit -m "Add cute octocat history"
+-- git add "*.txt"
+-- git status
+-- git commit -m 'Add all the octocat txt files'
+-- git log
+-- git remote add origin https://github.com/try-git/try_git.git
+-- git push -u origin master
+-- git pull origin master
+-- git diff HEAD
+-- git add octofamily/octodog.txt
+-- git diff --staged
+-- git reset octofamily/octodog.txt
+-- git checkout -- octocat.txt
+-- git branch clean_up
+-- git branch
+-- git checkout clean_up
+-- git rm "*.txt"
+-- git commit -m "Remove all the cats"
+-- git checkout master
+-- git merge clean_up
+-- git branch -d clean_up
+-- git pushs
+
