@@ -1,0 +1,14 @@
+
+.caixa_simples {
+  border-style: solid;
+  border-color: white;
+  width: 20%;
+  height: 30%;
+}
+
+.caixa_dupla {
+  border-style: solid;
+  border-color: white;
+  width: 40%;
+  height: 30%;
+}
