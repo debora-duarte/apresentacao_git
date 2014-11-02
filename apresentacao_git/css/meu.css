@@ -1,14 +1,16 @@
 
-.caixa_simples {
-  border-style: solid;
-  border-color: white;
+.caixa-simples {
+  border: 5px solid white;
   width: 20%;
+  max-height: 30%;
+}
+
+.caixa-dupla {
+  border: 5px solid white;
+  width: 40%;
   height: 30%;
 }
 
-.caixa_dupla {
-  border-style: solid;
-  border-color: white;
-  width: 40%;
-  height: 30%;
+.legenda {
+  font-size: 50px;
 }
