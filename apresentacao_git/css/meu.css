@@ -1,16 +1,18 @@
 
+.linha {
+  max-height: 30%;
+}
+
 .caixa-simples {
   border: 5px solid white;
   width: 20%;
-  max-height: 30%;
 }
 
 .caixa-dupla {
   border: 5px solid white;
   width: 40%;
-  height: 30%;
 }
 
-.legenda {
+p.legenda {
   font-size: 50px;
 }
