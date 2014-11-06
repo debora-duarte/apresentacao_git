@@ -1,21 +1,22 @@
 * Apresentação
 
--> Me logar no Github
-
 ** To do
-
--> Criar novo repositório do Git
 
 -> Colocar mais links e slides pra explicar os conceitos
 
--> Seguit o roteiro pra ver se está faltando alguma coisa
+-> Seguir o roteiro pra ver se está faltando alguma coisa
+
+-> Mudar os comandos pra fazer o push do branch
+
+-> Baixar o " http://www.sourcetreeapp.com/" no Windows e ver como funciona pra conectar na minha conta do Github
 
 
--> Baixar o " http://www.sourcetreeapp.com/" no Windows e ver como funciona pra conectar na minha conta do Github.
 
 ** Antes apresentação
 
 -> Deixar Github aberto
+
+-> Deixar o terminal aberto na pasta da apresentação
 
 
 ** Comandos Reveal.js
