@@ -13,17 +13,21 @@
 
 -> Dar um último tapa na apresentação
 
+-> Deixar tudo aberto de forma esquematizada
+
+-> Lembrar que tenho que selecionar o branch pra editar o arquivo
+
 
 ** Comandos Reveal.js
 
 --> F/Esc: tela inteira/sair
 
 
-** Comandos a seguir
+** Comandos a seguir - SEPARAR ISSO EM UM ARQUIVO!
 
 -- git init
 -- git status
-- Criar arquivo <piadinha>
+-- echo 'This is a test' > <piadinha>.txt
 -- git status * Falar sobre o status do repositório
 -- git add <piadinha> * Falar sobre a staging area
 - Criar arquivo <uma_coisa_qualquer>
