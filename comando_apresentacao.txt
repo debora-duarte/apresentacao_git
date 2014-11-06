@@ -11,6 +11,8 @@
 -- git log
 -- git remote add origin https://github.com/deboraaline/dia_apresentacao.git
 -- git push -u origin master
+
+
 - Incluir um arquivo trabalho_coleta.txt no Github pelo site
 -- git pull origin master
 -- git status
@@ -23,18 +25,22 @@
 -- git add trabalho_colega.txt
 -- git commit -m "Resolvendo o conflito"
 -- git push origin master
+
+
 -- echo 'Alterando meu trabalho' > meu_trabalho.txt
 -- git add meu_trabalho.txt
 -- git reset meu_trabalho.txt
 -- git checkout -- meu_trabalho.txt
+
+
 -- git branch nova_feature
 -- git branch
 -- git checkout nova_feature
 -- echo 'Implementando nova feature' > impl_nova_feature.txt
 -- git add impl_nova_feature.txt
 -- git commit -m "Comitando nova feature"
--- echo 'Implementando mais coisas' > impl_nova_feature.txt
--- git add impl_nova_feature.txt
+-- echo 'Implementando mais coisas' > mais_impl_nova_feature.txt
+-- git add mais_impl_nova_feature.txt
 -- git commit -m "Mais uma parte da implementação"
 -- git checkout master - (FALAR DO PULL REQUEST)
 -- git merge nova_feature
