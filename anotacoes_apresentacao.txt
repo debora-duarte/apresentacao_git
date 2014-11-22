@@ -2,10 +2,6 @@
 
 ** To do
 
--> Colocar mais links e slides pra explicar os conceitos
-
--> Seguir o roteiro pra ver se está faltando alguma coisa
-
 -> Mudar os comandos pra fazer o push do branch
 
 -> Baixar o " http://www.sourcetreeapp.com/" no Windows e ver como funciona pra conectar na minha conta do Github
@@ -22,4 +18,3 @@
 ** Comandos Reveal.js
 
 --> F/Esc: tela inteira/sair
-
