@@ -1,5 +1,7 @@
 ** Comandos a seguir - SEPARAR ISSO EM UM ARQUIVO!
 
+FLUXO DIA A DIA
+
 -- git init
 -- git status
 -- echo 'Trabalhando' > meu_trabalho.txt
@@ -12,11 +14,13 @@
 -- git remote add origin https://github.com/deboraaline/dia_apresentacao.git
 -- git push -u origin master
 
+MERGE
 
-- Incluir um arquivo trabalho_coleta.txt no Github pelo site
+- Incluir um arquivo trabalho_coleta.txt no Github pelo site (+ DO LADO DO NOME DO REPOSITÓRIO)
 -- git pull origin master
 -- git status
-- Alterar o arquivo trabalho_colega.txt pelo site e localmente (LEMBRAR DE SELECIONAR O BRANCH)
+- Alterar o arquivo trabalho_colega.txt localmente
+- Alterar o arquivo trabalho_colega.txt pelo site (CLIAR NO ARQUIVO, SELECIONAR O BRANCH, CLICAR NO LÁPIS)
 -- git add trabalho_colega.txt
 -- git commit -m "Pra dar conflito"
 -- git pull origin master
@@ -26,12 +30,14 @@
 -- git commit -m "Resolvendo o conflito"
 -- git push origin master
 
+GERENCIAMENTO DE TRABALHO LOCAL
 
 -- echo 'Alterando meu trabalho' > meu_trabalho.txt
 -- git add meu_trabalho.txt
 -- git reset meu_trabalho.txt
 -- git checkout -- meu_trabalho.txt
 
+BRANCH
 
 -- git branch nova_feature
 -- git branch
